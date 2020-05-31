@@ -1,0 +1,44 @@
+
+  
+<link rel="stylesheet" href="/css/user_profile.css">
+  <h2>Profile Page</h2>
+   
+
+  <% if(locals.user){%>
+   
+   
+
+   <h3 style="text-align: center ; width: 1400px;">Here are your Details !!</h3> 
+<br>
+<br>
+<ul>
+   <li>
+    <h4> Name : <%=user.name%></h4>
+   </li>
+
+   <li> <h4> Email : <%=user.email%></h4></li>
+
+   <li> <h4> Phone Number : <%=user.phone%></h4></li>
+
+   <li><h4> Adhar Card Number: <%=user.adhar%></h4></li>
+
+   <li> <h4> Vehicle Number : <%=user.vehicleNo%></h4></li>
+
+   <li> <h4> RC Number : <%=user.rcNo%></h4></li>
+
+   <li> <h4> License Number: <%=user.licenseNo%></h4></li>
+
+    
+    
+
+
+<br><br>
+
+   <h4>To update your info mail us at : <h4><p><a href="mailto:breachalertworks.com">breachalertworks.com</a></p>
+</ul>
+    <%}%>
+   
+
+
+   
+ 
