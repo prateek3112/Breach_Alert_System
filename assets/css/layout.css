@@ -22,3 +22,12 @@ body #main form input {
   display: inline-block;
   height: 30px;
 }
+
+body{
+  background-image: url("../images/bg4.jpg");
+  height: 100%;
+  margin-top: 20px;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */}
+
+
